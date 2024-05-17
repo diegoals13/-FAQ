@@ -1,0 +1,30 @@
+body {
+    display: grid;
+
+    grid-template: 
+    "header" 70px
+    "aside" 50px
+    "main" auto
+    "footer" 70px;
+}
+
+@media (min-width: 800px) {
+    body {
+        grid-template:
+        "header header" 70px
+        "aside main" auto /
+            200px auto;
+    }
+}
+
+.header {
+    grid-area: header;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.main {
+    grid-area: main;
+}
