@@ -1,11 +1,15 @@
+@import "header.css";
+@import "aside.css";
+@import "main.css";
+
 body {
+    margin: 0;
     display: grid;
 
     grid-template: 
     "header" 70px
-    "aside" 50px
-    "main" auto
-    "footer" 70px;
+    "aside" 200px
+    "main" auto;
 }
 
 @media (min-width: 800px) {

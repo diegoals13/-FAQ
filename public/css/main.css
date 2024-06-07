@@ -1,0 +1,13 @@
+main {
+    background-color: #ffe6fa;
+}
+
+div {
+    max-width: 500px;
+}
+
+section {
+    display: flexbox;
+    padding-left: 2em;
+    padding-top: 2em;
+}
